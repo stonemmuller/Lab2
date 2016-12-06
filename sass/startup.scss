@@ -1,0 +1,48 @@
+@import "variables";
+@import "bootstrap";
+@import "bootswatch";
+
+.container
+{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.product
+{
+  padding: 15px;
+  width: 300px;
+  //height: 200px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 4px;
+
+  .product-image
+  {
+    width: 70px;
+    height: 70px;
+  }
+  .product_title
+  {
+    text-align: center;
+  }
+
+  .action-add
+  {
+    text-align: center;
+  }
+}
+
+.basket
+{
+  td,th
+  {
+    text-align: left;
+  }
+  .product-image
+  {
+    width: 50px;
+    height: 50px;
+  }
+}

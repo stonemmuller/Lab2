@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/startup.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"> </script>
+    <script src="javascripts/bundle.js"></script>
+</head>
+<body ng-app="App">
+    <div ng-controller="Menu" ng-include="'templates/menu/menu.html'"></div>
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+<table class="table basket">
+    <thead>
+    <tr>
+        <th>Картника</th>
+        <th>Название</th>
+        <th>Количество</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="p in basket track by $index">
+            <td><img class="product-image" ng-src="{{p.product.image}}"/></td>
+            <td>{{p.product.name}}</td>
+            <td><input type="text" ng-model="p.count"></td>
+        </tr>
+    </tbody>
+</table>

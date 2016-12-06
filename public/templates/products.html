@@ -1,0 +1,13 @@
+{{products}}
+<div class="product" ng-repeat="p in products">
+    <div class="row product_title">{{p.name}}</div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4"><img class="product-image" ng-src="{{p.image}}"></div>
+        <div class="col-md-7">{{p.description}}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-7"></div>
+        <div class="col-md-5"><button  ng-click="info.AddToBasket(p)" class="btn btn-primary action-add">Добавить</button></div>
+    </div>
+</div>
